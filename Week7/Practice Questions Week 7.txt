@@ -1,0 +1,35 @@
+Practice Questions - Ethan Iwama
+---
+1. How do you assess the statistical significance of an insight?
+   We ask how likely an observed effect is observed assuming the null hypothesis is true.
+   This probability is called the pvalue (it's determined through a statistical test), and if it
+   exceeds our significance level (often 0.05) then we can reject null hypothesis and determine
+   that the insight tested is statistically significant.
+
+2. What is the Central Limit Theorem? Explain it. Why is it important?
+   Essentially, as the number of samples we take increases, the more the distribution of our samples
+   becomes Gaussian/Normal. It means that for large sample sizes, we can treat the distribution of
+   the data as if it were normal regardless of the actual distribution of the data points. Normal
+   distributions have been very well studied, so it's easier to make inferences from them.
+
+3. What is the statistical power?
+   The probability of correctly rejecting the null hypothesis when the alternate hypothesis is true.
+
+4. How do you control for biases?
+   By taking random samples - by randomly assigning units of analysis to specific treatments.
+   The randomness means we can avoid other factors affecting the results.
+
+5. What are confounding variables?
+   Variables that confound the relationship between independent and dependent variables, typically
+   because the confounding variable affects the independent variable in some way, which in turn
+   affects the dependent variable.
+
+6. What is A/B testing?
+   It can also be considered "head-to-head" testing; you're testing how the dependent variables change
+   given how you change the independent variable in different tests. For example, if you want to see
+   if a security camera in a store lowers crime, you watch two stores where one has a camera and the
+   other doesn't, then you compare.
+
+7. What are confidence intervals?
+   A range of values that contains a population parameter. We can then determine a confidence that the
+   true value is somewhere within that range.
